@@ -1,0 +1,316 @@
+@media(max-width:1199px){
+    h1 {
+    font-size: 50px;
+}
+
+    h2 {
+    font-size: 30px;
+}
+.favorite-destination {
+    padding: 24px 30px;
+    font-size: 16px;
+}
+.favorite-destination h2 {
+    font-size: 38px;
+}
+a.logo img {
+    max-width: 220px;
+}
+button.menu-toggle{
+    display: block;
+}
+span.close-btn-menu{display: flex;}
+.main-menu {
+    position: fixed;
+    left: 0;
+    right: 0px;
+    top: -100%;
+    z-index: 9;
+    background: #fff;
+    min-height: 100vh;
+    transition: 0.3s;
+}
+.main-menu.menu-active {
+   top: 0;
+}
+ul.navbar {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+     gap: 10px;
+}
+.catagories {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.catagories a {
+    font-size: 16px;
+}
+.catagories a img {
+    width: 35px;
+    height: 35px;
+}
+.tour-days {
+    gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin: 10px 0px 20px 0px;
+}
+.nav-pills {
+    margin-left: 0;
+    justify-content: left;
+}
+.blog-con {
+    padding: 15px;
+}
+.Malaysia-plan .section-top {
+    top: 30px;
+    left: 30px;
+}
+.tour-facatity {
+    gap: 40px;
+}
+.sidebar-block.user-form {
+    padding: 15px;
+}
+.add-extra {
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+}
+@media(max-width:991px){
+    h1 {
+    font-size: 40px;
+}
+    h2 {
+    font-size: 28px;
+}
+.catagories {
+    gap: 10px 10px;
+    max-width: 100%;
+    padding: 15px;
+    margin: 0px 15px;
+    margin-top: -30px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+.banner .btn {
+    font-size: 18px;
+    padding: 9px 10px;
+}
+.Tranding-card-pic {
+    border-radius: 50px;
+}
+.favorite-destination h2 {
+    font-size: 32px;
+}
+.favorite-destination {
+    padding:20px;
+}
+.Malaysia-plan .section-top {
+    top: 20px;
+    left: 20px;
+    max-width: 350px;
+}
+.everyone-travel-block {
+    gap: 25px;
+}
+.tours-services {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button.owl-thumb-item {
+    width: 150px;
+    height: 150px;
+}
+button.owl-thumb-item img {
+    width: 100%;
+    height: 100%;
+}
+.padd-50 {
+    padding: 40px 0;
+}
+.padd-40 {
+    padding: 30px 0;
+}
+.tour-facatity {
+    gap: 25px;
+}
+}
+@media(max-width:767px){
+    .padd-50 {
+    padding: 30px 0;
+}.padd-40 {
+    padding: 25px 0;
+}
+    a.logo img {
+    max-width: 180px;
+}
+a.header-btn.btn {
+    font-size: 0;
+    padding: 5px;
+    gap: 0;
+}
+h1 {
+    font-size: 32px;
+}
+    h2 {
+    font-size: 25px;
+}
+.banner form {
+    gap: 15px;
+    padding: 0px 0px 0px 10px;
+    margin-top: 20px;
+}
+.banner .btn {
+    padding: 10px;
+    background-image: url(./images/search-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    background-size: auto;
+    padding: 0px;
+    border-radius: 50%;
+    background-color: #e4007b;
+}
+.Tranding-card-pic {
+    border: 10px solid #E9DEFF;
+    border-radius: 30px;
+}
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: 0px !important;
+    left: 0px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.favorite-destination {
+    border-radius: 12px;
+    padding: 15px;
+    margin: 0px 15px;
+}
+.favorite-destination h2 {
+    font-size: 26px;
+}
+.explore-section {
+    border-radius: 15px;
+}
+.nav-pills{flex-wrap: wrap;}
+.middle-btn .owl-nav button {
+    left: 0;
+    right: auto;
+}
+.middle-btn .owl-nav button.owl-next {
+    left: auto;
+    right: 0;
+}
+.not-sure-banner .nav-pills {
+    margin: 0px 0px 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+.not-sure-banner li.nav-item {
+    width: 100%;
+}
+.tours-services {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-row {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.flex-row .section-top {
+    margin-bottom: 0;
+}
+.blog-section .row {
+    row-gap: 25px;
+}
+.connect-with .row {
+    row-gap: 20px;
+}
+.content_section {
+    margin-bottom: 25px;
+}
+.footer-block-top .row {
+    row-gap: 20px;
+}
+p.Caution {
+    margin-top: 20px;
+}
+a.brand-logo img {
+    max-width: 100%;
+    margin-top: 15px;
+}
+button.owl-thumb-item {
+    padding: 0px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 8px;
+    width: 80px;
+    height: 80px;
+}
+.Malaysia-plan .section-top {
+    top: 15px;
+    left: 15px;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+}
+a.banner-slider-pic img {
+    min-height: 400px;
+    object-fit: cover;
+}
+.footer-block-bottom{flex-wrap: wrap;}
+.toolbar {
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.pagination a {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+}
+.sidebar-title {
+       margin-bottom: 15px;
+    min-height: auto;
+}
+.sidebar-block {
+    padding: 15px;
+    border-radius: 10px;
+}
+.detail-top .container {
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+.tour-facatity {
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.Amenities-card {
+    padding: 15px;
+}
+.Itinerary button.accordion-button {
+    font-size: 16px;
+}
+.Itinerary button.accordion-button strong {
+    white-space: nowrap;
+    margin-right: 5px;
+}
+.Itinerary .accordion-body {
+    font-size: 15px;
+    padding: 15px;
+}
+}
+

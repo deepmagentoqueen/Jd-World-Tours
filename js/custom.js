@@ -1,0 +1,134 @@
+AOS.init();
+
+$(document).ready(function(){
+    $('.explore-owl').owlCarousel({
+        loop:true,
+        dots:false,
+        nav:true,
+        margin:20,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+              991:{
+                items:4
+            },
+            1000:{
+                items:6
+            }
+        }
+    })
+       $('.tranding-owl').owlCarousel({
+        loop:true,
+        dots:false,
+        nav:true,
+        margin:20,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+              991:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+         $('.popular-owl').owlCarousel({
+        loop:true,
+        dots:false,
+        nav:true,
+        margin:20,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+              991:{
+                items:3
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+          $('.Priced-owl').owlCarousel({
+        loop:true,
+        dots:false,
+        nav:true,
+        margin:20,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+              991:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+ 
+              $('.blog-owl').owlCarousel({
+        loop:true,
+        dots:true,
+        nav:false,
+        margin:20,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+              991:{
+                items:2
+            },
+            1000:{
+                items:2
+            }
+        }
+    })
+    });
+$(document).ready(function(){
+  $(".menu-toggle").click(function(){
+     $(".main-menu").addClass("menu-active");
+  });
+   $(".close-btn-menu").click(function(){
+     $(".main-menu").removeClass("menu-active");
+  });
+
+  $(".main-nav li").each(function(){
+    $(".subopener").click(function(){
+    $(this).parent().toggleClass('active-menu').siblings().removeClass('active-menu');
+    });
+
+    $(".sidebar a").click(function(){
+        $(".sidebar a").removeClass('active');
+        $(this).addClass('active');
+});
+  });
+});
+/********pop up img */
+lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  })
