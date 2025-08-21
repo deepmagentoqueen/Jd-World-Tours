@@ -1351,3 +1351,6 @@ span.package-rating {
     content: "-";
     background: none;
 }
+.blog-section .row {
+    row-gap: 25px;
+}

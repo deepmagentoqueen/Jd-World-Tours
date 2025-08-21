@@ -233,9 +233,6 @@ h1 {
 .flex-row .section-top {
     margin-bottom: 0;
 }
-.blog-section .row {
-    row-gap: 25px;
-}
 .connect-with .row {
     row-gap: 20px;
 }
