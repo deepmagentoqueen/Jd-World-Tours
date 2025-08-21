@@ -137,6 +137,9 @@ button.owl-thumb-item img {
 .tour-facatity {
     gap: 25px;
 }
+.contact-card {
+    padding: 20px;
+}
 }
 @media(max-width:767px){
     .padd-50 {
@@ -308,6 +311,12 @@ a.banner-slider-pic img {
 .Itinerary .accordion-body {
     font-size: 15px;
     padding: 15px;
+}
+.Contact-us .row, .contact-form .row {
+    row-gap: 25px;
+}
+.contact-form .field-set {
+    flex-wrap: wrap;
 }
 }
 
