@@ -1,3 +1,9 @@
+
+@media(max-width:1400px){
+    .banner.inner-banner form {
+    max-width: 680px;
+}
+}
 @media(max-width:1199px){
     h1 {
     font-size: 50px;
@@ -134,6 +140,7 @@ button.owl-thumb-item img {
 .padd-40 {
     padding: 30px 0;
 }
+.margin-40{margin-top: 30px; margin-bottom: 30px;}
 .tour-facatity {
     gap: 25px;
 }
@@ -146,6 +153,17 @@ button.owl-thumb-item img {
 .ready-for-plan {
     padding: 25px;
 }
+.cta-section {
+    padding: 25px;
+}
+.cta-section .btn {
+    padding: 10px;
+    font-size: 18px;
+    min-width: 180px;
+}
+.cta-section h2 br {
+    display: none;
+}   
 }
 @media(max-width:767px){
     .padd-50 {
@@ -153,6 +171,7 @@ button.owl-thumb-item img {
 }.padd-40 {
     padding: 25px 0;
 }
+.margin-40{margin-top: 25px; margin-bottom: 25px;}
     a.logo img {
     max-width: 180px;
 }
@@ -344,5 +363,35 @@ span.Step-pic img {
 }
 .step-vector {
     margin-bottom: -50px;
+}
+.cta-section {
+    flex-wrap: wrap;
+    row-gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.banner.inner-banner form {
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 15px;
+}
+.inner-banner .field-set {
+    flex-wrap: wrap;
+    width: 100%;
+}
+.inner-banner .field-set .field {
+    width: 100%;
+}
+.banner.inner-banner form button.btn {
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: none;
+}
+.banner.inner-banner form img {
+    display: none;
+}
+.inner-banner.Cruises-banner img.banner-pic {
+    min-height: 380px;
 }
 }
