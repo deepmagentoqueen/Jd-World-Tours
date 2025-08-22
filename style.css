@@ -1378,3 +1378,115 @@ span.package-rating {
 .contact-form .fields{
     width: 100%;
 }
+.contact-form .btn {
+    font-size: 18px;
+    padding: 13px 15px;
+    margin-top: 15px;
+    min-width: 220px;
+}
+.inner-banner img.banner-pic {
+    min-height: 250px;
+}
+span.instagram-icon {
+    background: rgb(0 0 0 / 51%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.services-card-pic:hover .instagram-icon{opacity: 1;}
+span.instagram-icon img {
+    width: auto !important;
+    height: auto;
+}
+.services-card-pic {position: relative;}
+.work-step {
+    background: #fff;
+}
+.step-vector {
+    margin-bottom: -80px;
+    padding-top: 30px;
+}
+.step-vector img {
+    max-width: 100%;
+}    
+.passion-pic img{max-width: 100%;}   
+.Step-card {
+    padding: 0px 20px;
+}
+.Step-card h3 {
+    margin: 10px 0px 8px 0px;
+}
+.Step-card:hover img, .passion-col-pic:hover img {
+    filter: brightness(500);
+}
+.Step-card:hover span.Step-pic,.passion-col-pic:hover {
+    background: #5b3d96;
+}
+span.Step-pic {
+    display: inline-block;
+    border: 3px dashed #5b3d96;
+    border-radius: 50%;
+    padding: 17px;
+    background: #ffffff;
+}
+span.Step-pic img {
+    max-width: 60px;
+}
+
+.passion-col-pic {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #5b3d96;
+    min-width: 60px;
+}
+.passion-col-pic img {
+    max-width: 100%;
+}
+.passion-col {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+.passion .row{row-gap: 20px;}
+.passion-col p {
+    margin: 0px;
+}
+a.brand-icon img {
+    width: auto !important;
+    margin: 0 auto;
+}
+.ready-for-plan {
+    background-image: url(./images/thumb-slide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+.ready-for-plan h2 {
+    -webkit-text-fill-color: #fff;
+}
+.ready-for-plan .btn {
+    color: #5B3D96;
+    background: #fff;
+    min-width: 160px;
+    padding: 10px;
+}
+

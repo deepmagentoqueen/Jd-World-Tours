@@ -140,6 +140,12 @@ button.owl-thumb-item img {
 .contact-card {
     padding: 20px;
 }
+.Step-card {
+    padding: 0px 0px;
+}
+.ready-for-plan {
+    padding: 25px;
+}
 }
 @media(max-width:767px){
     .padd-50 {
@@ -318,5 +324,25 @@ a.banner-slider-pic img {
 .contact-form .field-set {
     flex-wrap: wrap;
 }
+.contact-form .btn {
+    font-size: 16px;
+    padding: 10px 12px;
+    margin-top: 10px;
+    min-width: 180px;
 }
-
+.ready-for-plan {
+    padding: 20px 15px;
+}
+span.Step-pic {
+    padding: 15px;
+}
+.work-step .row {
+    row-gap: 20px;
+}
+span.Step-pic img {
+    max-width: 40px;
+}
+.step-vector {
+    margin-bottom: -50px;
+}
+}
